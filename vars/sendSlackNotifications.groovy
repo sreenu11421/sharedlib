@@ -21,5 +21,5 @@ def call(String buildStatus = 'STARTED') {
   }
 
   // Send notifications
-  slackSend (color: colorCode, message: summary, channel: "citibank-project")
+  slackSend (color: colorCode, message: summary, channel: "jenkins")
 }
